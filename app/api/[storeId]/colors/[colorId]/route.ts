@@ -17,7 +17,7 @@ export async function GET(
         id: params.colorId
       }
     });
-  
+
     return NextResponse.json(color);
   } catch (error) {
     console.log('[COLOR_GET]', error);
@@ -56,7 +56,7 @@ export async function DELETE(
         id: params.colorId
       }
     });
-  
+
     return NextResponse.json(color);
   } catch (error) {
     console.log('[COLOR_DELETE]', error);
@@ -113,7 +113,7 @@ export async function PATCH(
         value
       }
     });
-  
+
     return NextResponse.json(color);
   } catch (error) {
     console.log('[COLOR_PATCH]', error);

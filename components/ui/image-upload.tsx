@@ -5,6 +5,7 @@ import { Button } from "./button";
 import { ImagePlus, Trash } from "lucide-react";
 import Image from "next/image";
 import { CldUploadWidget } from "next-cloudinary";
+import { toast } from "react-hot-toast";
 
 interface ImageUploadProps {
   disabled?: boolean;
